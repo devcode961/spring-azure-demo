@@ -15,6 +15,6 @@ public class SpringAzureDemoApplication {
 
     @GetMapping("/hello")
     public String welcome() {
-        return "Welcome to Azure Spring Boot App";
+        return "Congrats ! Your spring boot application is successfully deployed on Azure";
     }
 }
